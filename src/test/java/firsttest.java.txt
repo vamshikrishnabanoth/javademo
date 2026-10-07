@@ -1,0 +1,16 @@
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class FirstTest {
+
+    @Test
+    public void testAddition() {
+        assertEquals(5, First.add(2, 3));
+    }
+
+    @Test
+    public void testAnotherAddition() {
+        assertEquals(10, First.add(7, 3));
+    }
+}
